@@ -8,6 +8,11 @@ import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * 在应用主类中使用@EnableCircuitBreaker或@EnableHystrix注解开启Hystrix的使用
+ *
+ * 
+ */
 @EnableCircuitBreaker
 @EnableDiscoveryClient
 @SpringBootApplication
