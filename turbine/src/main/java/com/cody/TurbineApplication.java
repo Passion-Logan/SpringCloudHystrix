@@ -9,9 +9,8 @@ import org.springframework.cloud.netflix.turbine.EnableTurbine;
 import org.springframework.context.annotation.Configuration;
 
 @EnableTurbine
-@Configuration
-@EnableAutoConfiguration
 @EnableDiscoveryClient
+@SpringBootApplication
 public class TurbineApplication {
 
     public static void main(String[] args) {
